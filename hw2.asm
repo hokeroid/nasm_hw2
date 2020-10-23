@@ -158,7 +158,7 @@ _printArray:
 _printAnsArray:
     mov rax, 0
     cmp [ansArrSz], rax
-        je _ret
+        jle _ret
 
     mov rax, r15
     mov rdx, 16
